@@ -19,9 +19,7 @@ public enum Properties {
         return type;
     }
 
-    public static Properties getInstance(String name, String type) {
-        INSTANCE.name = name;
-        INSTANCE.type  = type;
+    public static Properties getInstance() {
         return INSTANCE;
     }
 }
